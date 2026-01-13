@@ -1,0 +1,198 @@
+export const siteConfig = {
+  name: "Yugal Jakasaniya",
+  role: "Full-Stack Developer",
+  tagline: "MERN/MEAN • UI-centric Engineer",
+  location: "Rajkot, Gujarat, India",
+  email: "jakasaniyayugal@gmail.com",
+  phone: "+91 97230 23403",
+  summary:
+    "Proactive and adaptable full-stack developer building scalable apps, hackathon prototypes, and industry-focused solutions. Strong problem-solver with a track record of delivering impactful products.",
+  logo: "Y.",
+  socials: {
+    github: "https://github.com/Yugal0212",
+    linkedin: "https://www.linkedin.com/in/yugal-jakasaniya-95b979314",
+  },
+  colors: {
+    primary: "#00d4ff",
+    secondary: "#7c3aed",
+    accent: "#ff1493",
+  },
+  projects: [
+    {
+      id: "masterpiece-ceramic",
+      title: "Masterpiece Ceramic",
+      tagline: "ERP-style frontend for sales & inventory",
+      tech: ["React", "Node", "MongoDB"],
+      live: "https://masterpiecesceramic.vercel.app",
+      source: "https://github.com/Yugal0212/Masterpieces-Ceramic",
+      description: "Streamlined UI for tracking sales and managing inventory for a ceramic firm.",
+      longDescription:
+        "A comprehensive ERP-style dashboard for managing ceramic business operations. Built with React for a responsive frontend and Node.js + MongoDB backend for robust data management. Features role-based access control, real-time inventory tracking, and an intuitive sales dashboard.",
+      highlights: ["Fast, intuitive dashboard", "Role-aware views", "Responsive design", "Real-time updates"],
+      images: [
+        "/images/masterpices_ceramic.png",
+        "/images/masterpices_ceramic_2.png",
+        "/images/masterpices_ceramic_3.png",
+      ],
+      tags: ["ERP", "Dashboard", "Frontend"],
+      featured: true,
+    },
+    {
+      id: "quickmart-mean",
+      title: "QuickMart (MEAN)",
+      tagline: "E-commerce with role-based access and secure checkout",
+      tech: ["Angular", "Node", "Express", "MongoDB"],
+      live: "https://quickmart-clone.netlify.app",
+      source: "https://github.com/Yugal0212/Ecommerce_web",
+      description: "Scalable store: product catalog, cart, secure checkout, admin/seller/customer roles.",
+      longDescription:
+        "A full-featured e-commerce platform built with the MEAN stack. Supports multiple user roles (customer, seller, admin) with distinct dashboards. Features include product browsing, shopping cart management, secure checkout process, and order tracking.",
+      highlights: ["Multi-role authentication", "Secure checkout", "Order management", "Real-time notifications"],
+      images: [
+        "/images/quickmart.png",
+        "/images/quickmart_2.png",
+      ],
+      tags: ["E-commerce", "MEAN", "Auth"],
+      featured: true,
+    },
+    {
+      id: "nilkanth-trading",
+      title: "Nilkanth Trading",
+      tagline: "Professional static website for trading business",
+      tech: ["next js", "tailwind css", "emailjs"],
+      live: "https://nilkanth-trading.vercel.app/",
+      source: "https://github.com/Yugal0212/Nilkanth_trading",
+      description: "Clean, responsive static website for client showcasing trading business services and products.",
+      longDescription:
+        "A professional static website designed for a trading company. Features a clean layout, responsive design across all devices, and an intuitive navigation structure. Includes service showcase, contact information, and company details.",
+      highlights: ["Client Project", "Professional Design", "Fully Responsive", "SEO Optimized"],
+      images: [
+        "/images/Nilkanth_trading(1).png",
+        "/images/Nilkanth_trading(2).png",
+        "/images/Nilkanth_trading(3).png",
+        "/images/Nilkanth_trading(4).png",
+      ],
+      tags: ["Static Site", "Client Work", "Business"],
+      featured: true,
+    },
+    {
+      id: "chaxy-mern",
+      title: "Chaxy (MERN)",
+      tagline: "Real-time 1:1 & group chat over WebSockets",
+      tech: ["React", "Node", "Express", "MongoDB", "WebSocket"],
+      live: "https://github.com/Yugal0212/Chexay.io",
+      source: "https://github.com/Yugal0212/Chexay.io",
+      description: "Secure authentication and responsive UI with presence and typing indicators.",
+      longDescription:
+        "A real-time messaging platform built with MERN stack and WebSocket technology. Supports both 1:1 conversations and group chats with real-time message delivery, typing indicators, and online presence detection. Includes secure authentication and data encryption.",
+      highlights: ["WebSocket real-time updates", "Typing indicators", "Online presence", "Message encryption"],
+      images: [
+        "/chat-interface.jpg",
+        "/messaging-app.jpg",
+        "/group-chat.png",
+        "/user-profile.jpg",
+      ],
+      tags: ["MERN", "Realtime", "Chat"],
+      featured: true,
+    },
+    {
+      id: "library-management",
+      title: "Library Management System",
+      tagline: "Next.js + Nest.js with auth & role-based access",
+      tech: ["Next.js", "Nest.js", "PostgreSQL"],
+      live: "https://github.com/Yugal0212/library-management-system",
+      source: "https://github.com/Yugal0212/library-management-system",
+      description: "Digital library operations with efficient book and user management.",
+      longDescription:
+        "A comprehensive library management system with advanced features like book cataloging, user registration, borrowing management, and return tracking. Built with Next.js frontend and Nest.js backend for a scalable architecture.",
+      highlights: ["Book catalog management", "User authentication", "Borrow/Return tracking", "Fine management"],
+      images: [
+        "/images/Lms.png",
+        "/images/lms_2.png",
+        "/images/lms_3.png",
+      ],
+      tags: ["Next.js", "Nest.js", "PostgreSQL"],
+      featured: false,
+    },
+    {
+      id: "ai-language-learning",
+      title: "AI Language Learning Model",
+      tagline: "LLaMA-powered vocabulary & conversation practice",
+      tech: ["Python", "LLaMA", "Next.js"],
+      live: "https://github.com/Yugal0212",
+      source: "https://github.com/Yugal0212",
+      description: "Hackathon prototype for AI-assisted language learning.",
+      longDescription:
+        "An innovative AI-powered language learning platform using LLaMA model for natural language understanding. Features interactive vocabulary lessons, conversation practice, and personalized learning paths.",
+      highlights: ["AI-powered learning", "Vocabulary practice", "Conversation training", "Hackathon finalist"],
+      images: [
+        "/placeholder.svg?height=400&width=600",
+        "/placeholder.svg?height=400&width=600",
+        "/placeholder.svg?height=400&width=600",
+        "/placeholder.svg?height=400&width=600",
+      ],
+      tags: ["AI", "NLP"],
+      featured: false,
+    },
+  ],
+  achievements: [
+    {
+      title: "Hackathon participant — CodeArena 1.0 (2025)",
+      org: "Darshan University",
+      date: "2025",
+      description: "Reached the finals of CodeArena 1.0 hackathon with an innovative AI Language Learning prototype using LLaMA technology.",
+      badge: "Hackathon",
+    },
+    {
+      title: "Open House Showcase (2023)",
+      org: "Karnavati University",
+      date: "2023",
+      description: "Selected to showcase my projects at Karnavati University's prestigious Open House event, demonstrating technical excellence.",
+      badge: "Showcase",
+    },
+    {
+      title: "Full-Stack Development Mastery",
+      org: "Self-Directed Learning",
+      date: "2024",
+      description: "Achieved proficiency in modern full-stack development with MERN and MEAN stacks, building 5+ production-ready applications.",
+      badge: "Skill",
+    },
+    {
+      title: "Open Source Contributor",
+      org: "GitHub Community",
+      date: "Ongoing",
+      description: "Active contributor to open-source projects, sharing knowledge and collaborating with the developer community.",
+      badge: "Community",
+    },
+  ],
+  education: [
+    {
+      school: "Darshan University",
+      program: "B.Sc. (Hons) Computer Science",
+      period: "2023–2027 (Expected)",
+      location: "Rajkot",
+    },
+    {
+      school: "Sarthank Vidhyamandir, Morbi-2",
+      program: "HSC (Commerce)",
+      period: "2022–2023 (96.89%)",
+      location: "Morbi",
+    },
+  ],
+  skills: {
+    languages: ["Java", "C", "Python", "JavaScript"],
+    frontend: ["React", "Angular", "HTML", "CSS"],
+    backend: ["Node.js", "Express.js", "Nest.js"],
+    databases: ["MongoDB", "PostgreSQL"],
+    tools: ["Git", "GitHub", "Vercel", "Netlify"],
+  },
+  stats: {
+    yearsOfCoding: 3,
+    projectsShipped: 15,
+    technologiesUsed: 30,
+  },
+}
+
+export type Project = (typeof siteConfig.projects)[0]
+export type Achievement = (typeof siteConfig.achievements)[0]
+export type Education = (typeof siteConfig.education)[0]
