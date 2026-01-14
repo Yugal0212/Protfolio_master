@@ -17,8 +17,8 @@ export default function Home() {
       <div className="relative z-10">
       <Navbar />
       <HeroSection />
-      <StatsCounter />
       <AboutSection />
+      <StatsCounter />
       <ProjectsSection />
       <TechnologiesSection />
       <Footer />

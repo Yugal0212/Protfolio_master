@@ -17,7 +17,7 @@ const technologiesData = {
       name: "TypeScript",
       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
       color: "#3178C6",
-      level: "Advanced",
+      level: "Intermediate",
       description: "Type-safe JavaScript superset"
     },
     {
@@ -48,13 +48,7 @@ const technologiesData = {
       level: "Intermediate",
       description: "Enterprise applications"
     },
-    {
-      name: "PHP",
-      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg",
-      color: "#777BB4",
-      level: "Beginner",
-      description: "Server-side scripting"
-    }
+    
   ],
   frontend: [
     {
@@ -140,7 +134,7 @@ const technologiesData = {
       name: "REST API",
       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg",
       color: "#009688",
-      level: "Advanced",
+      level: "Intermediate",
       description: "RESTful web services"
     }
   ],
@@ -166,13 +160,7 @@ const technologiesData = {
       level: "Intermediate",
       description: "Popular SQL database"
     },
-    {
-      name: "Redis",
-      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg",
-      color: "#DC382D",
-      level: "Beginner",
-      description: "In-memory data store"
-    }
+    
   ],
   tools: [
     {
