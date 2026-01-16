@@ -71,7 +71,7 @@ export const metadata: Metadata = {
     images: ['/og-image.png'],
   },
   verification: {
-    google: 'your-google-verification-code', // Add after Google Search Console setup
+    google: '8DMU8YvBdraMYLG5A7SSZzRKWXAODKIB4rx9JEfyglg',
   },
   alternates: {
     canonical: 'https://yugal-protfolio.vercel.app',
