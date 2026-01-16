@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://protfolio-master.vercel.app'
+  const baseUrl = 'https://yugal-protfolio.vercel.app'
   
   return [
     {

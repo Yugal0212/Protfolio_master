@@ -11,7 +11,7 @@ const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://protfolio-master.vercel.app'),
+  metadataBase: new URL('https://yugal-protfolio.vercel.app'),
   title: {
     default: `Yugal Jakasaniya - Full Stack Developer | Portfolio`,
     template: `%s | Yugal Jakasaniya`
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     'Yugal Developer',
     'Jakasaniya Portfolio'
   ],
-  authors: [{ name: 'Yugal Jakasaniya', url: 'https://protfolio-master.vercel.app' }],
+  authors: [{ name: 'Yugal Jakasaniya', url: 'https://yugal-protfolio.vercel.app' }],
   creator: 'Yugal Jakasaniya',
   publisher: 'Yugal Jakasaniya',
   robots: {
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://protfolio-master.vercel.app',
+    url: 'https://yugal-protfolio.vercel.app',
     title: 'Yugal Jakasaniya - Full Stack Developer Portfolio',
     description: 'Yugal Jakasaniya - Full Stack Developer specializing in MERN/MEAN stack. Expert in React, Next.js, Node.js, MongoDB. Based in Rajkot, Gujarat, India.',
     siteName: 'Yugal Jakasaniya Portfolio',
@@ -74,7 +74,7 @@ export const metadata: Metadata = {
     google: 'your-google-verification-code', // Add after Google Search Console setup
   },
   alternates: {
-    canonical: 'https://protfolio-master.vercel.app',
+    canonical: 'https://yugal-protfolio.vercel.app',
   },
 }
 

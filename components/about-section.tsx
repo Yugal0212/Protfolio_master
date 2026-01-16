@@ -32,10 +32,11 @@ export function AboutSection() {
               </p>
 
               <p>
-                As a <span className="text-accent">Hackathon Finalist</span> at CodeArena 1.0, I've demonstrated my
-                ability to innovate under pressure. Whether it's building ERP systems, real-time chat applications, or
-                AI-powered solutions, I approach each project with meticulous attention to detail and a commitment to
-                excellence.
+                As a <span className="text-accent">Hackathon Participant</span> at CodeArena 1.0, I developed an{" "}
+                <span className="text-foreground font-semibold">AI-powered Language Learning System</span> that demonstrates 
+                my ability to innovate and create practical solutions. Whether it's building ERP systems, real-time chat 
+                applications, or AI-driven platforms, I approach each project with meticulous attention to detail and a 
+                commitment to excellence.
               </p>
             </div>
 

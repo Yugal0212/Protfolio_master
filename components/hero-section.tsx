@@ -14,21 +14,23 @@ export function HeroSection() {
   const roles = ["MERN Stack Developer", "MEAN Stack Developer", "UI-centric Engineer", "Full-Stack Developer"]
 
   useEffect(() => {
-    setIsLoaded(true)
+    const t = setTimeout(() => setIsLoaded(true), 150)
+    return () => clearTimeout(t)
   }, [])
 
   // Rotating role typewriter effect
   useEffect(() => {
     const currentRoleText = roles[currentRole]
     
-    const typeSpeed = isDeleting ? 50 : 100
+    // Fast typing and deleting for dynamic feel
+    const typeSpeed = isDeleting ? 30 : 60
     const timeout = setTimeout(() => {
       if (!isDeleting) {
         if (displayedRole.length < currentRoleText.length) {
           setDisplayedRole(currentRoleText.slice(0, displayedRole.length + 1))
         } else {
           // Pause before deleting
-          setTimeout(() => setIsDeleting(true), 2000)
+          setTimeout(() => setIsDeleting(true), 1500)
         }
       } else {
         if (displayedRole.length > 0) {
@@ -64,7 +66,7 @@ export function HeroSection() {
       <div className="max-w-4xl mx-auto text-center">
         {/* Main Content with staggered animation */}
         <div
-          className={`transition-all duration-1000 ${isLoaded ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}
+          className={`transition-all duration-700 ease-out ${isLoaded ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}
         >
           {/* Hello greeting with wave animation */}
           <div className="mb-4 animate-fade-in">
@@ -93,12 +95,12 @@ export function HeroSection() {
 
          
           {/* Description with character-by-character animation */}
-          <p className="text-base sm:text-lg text-muted-foreground mb-6 sm:mb-8 max-w-2xl mx-auto text-balance leading-relaxed animate-fade-in-up" style={{ animationDelay: "0.6s" }}>
+          <p className="text-base sm:text-lg text-muted-foreground mb-6 sm:mb-8 max-w-2xl mx-auto text-balance leading-relaxed animate-fade-in-up" style={{ animationDelay: "0.3s" }}>
             {siteConfig.summary}
           </p>
 
           {/* CTA Buttons with enhanced animations */}
-          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8 animate-fade-in-up" style={{ animationDelay: "0.8s" }}>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8 animate-fade-in-up" style={{ animationDelay: "0.5s" }}>
             <Link
               href="/projects"
               className="group px-8 py-4 rounded-lg bg-gradient-to-r from-primary to-cyan-500 text-white font-semibold hover:shadow-2xl hover:shadow-primary/50 transition-all hover:scale-105 flex items-center justify-center gap-2 relative overflow-hidden"
@@ -119,7 +121,7 @@ export function HeroSection() {
           </div>
 
           {/* Social Links with staggered animation */}
-          <div className="flex justify-center gap-6 animate-fade-in-up" style={{ animationDelay: "1s" }}>
+          <div className="flex justify-center gap-6 animate-fade-in-up" style={{ animationDelay: "0.7s" }}>
             <a
               href={siteConfig.socials.github}
               target="_blank"

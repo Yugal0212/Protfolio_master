@@ -4,8 +4,8 @@ export const structuredData = {
   '@context': 'https://schema.org',
   '@type': 'Person',
   name: siteConfig.name,
-  url: 'https://protfolio-master.vercel.app',
-  image: 'https://protfolio-master.vercel.app/og-image.png',
+  url: 'https://yugal-protfolio.vercel.app',
+  image: 'https://yugal-protfolio.vercel.app/og-image.png',
   sameAs: [
     siteConfig.socials.github,
     siteConfig.socials.linkedin,

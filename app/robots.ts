@@ -9,6 +9,6 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ['/api/', '/_next/'],
       },
     ],
-    sitemap: 'https://protfolio-master.vercel.app/sitemap.xml',
+    sitemap: 'https://yugal-protfolio.vercel.app/sitemap.xml',
   }
 }

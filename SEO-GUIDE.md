@@ -14,18 +14,18 @@
 ## 🚀 Steps to Get on Google:
 
 ### 1. **Deploy to Vercel** (You've already done this!)
-   - Your site: https://protfolio-master.vercel.app
+   - Your site: https://yugal-protfolio.vercel.app
 
 ### 2. **Verify Sitemap**
    Visit these URLs to confirm they work:
-   - https://protfolio-master.vercel.app/sitemap.xml
-   - https://protfolio-master.vercel.app/robots.txt
+   - https://yugal-protfolio.vercel.app/sitemap.xml
+   - https://yugal-protfolio.vercel.app/robots.txt
 
 ### 3. **Submit to Google Search Console**
 
    **A. Go to:** [search.google.com/search-console](https://search.google.com/search-console)
    
-   **B. Add Property:** `https://protfolio-master.vercel.app`
+   **B. Add Property:** `https://yugal-protfolio.vercel.app`
    
    **C. Verify Ownership:**
    - Choose "HTML tag" method

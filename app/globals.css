@@ -328,15 +328,15 @@ body {
 }
 
 .animate-fade-in-up {
-  animation: fadeInUp 0.6s ease-out;
+  animation: fadeInUp 1.2s ease-out;
 }
 
 .animate-slide-in {
-  animation: slideIn 0.6s ease-out;
+  animation: slideIn 0.4s ease-out;
 }
 
 .animate-glow {
-  animation: glow 2s ease-in-out infinite;
+  animation: glow 2.2s ease-in-out infinite;
 }
 
 .animate-float {
@@ -349,7 +349,7 @@ body {
 
 .animate-gradient {
   background-size: 200% 200%;
-  animation: gradient 3s ease infinite;
+  animation: gradient 2s ease infinite;
 }
 
 /* Horizontal scroll animation - optimized for touchpad */
@@ -379,7 +379,7 @@ body {
 
 /* Smooth transitions */
 .transition-smooth {
-  @apply transition-all duration-500 ease-out;
+  @apply transition-all duration-300 ease-out;
 }
 /* Typewriter and Hero Animations */
 @keyframes blink {
@@ -469,26 +469,26 @@ body {
 }
 
 .animate-blink {
-  animation: blink 1s step-end infinite;
+  animation: blink 0.7s step-end infinite;
 }
 
 .animate-wave {
-  animation: wave 2.5s ease-in-out infinite;
+  animation: wave 2s ease-in-out infinite;
   transform-origin: 70% 70%;
   display: inline-block;
 }
 
 .animate-gradient-x {
   background-size: 200% 200%;
-  animation: gradient-x 3s ease infinite;
+  animation: gradient-x 2s ease infinite;
 }
 
 .animate-fade-in {
-  animation: fade-in 0.8s ease-out;
+  animation: fade-in 0.4s ease-out;
 }
 
 .animate-fade-in-up {
-  animation: fadeInUp 0.8s ease-out both;
+  animation: fadeInUp 0.4s ease-out both;
 }
 
 /* Stagger animation delays */
