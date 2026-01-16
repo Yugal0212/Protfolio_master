@@ -112,7 +112,7 @@ export function HeroSection() {
               <div className="absolute inset-0 bg-gradient-to-r from-cyan-500 to-primary opacity-0 group-hover:opacity-100 transition-opacity"></div>
             </Link>
             <a
-              href="/Yugal_jakasaniya_resume (3).pdf"
+              href="/Yugal_jakasaniya_resume.pdf"
               download="Yugal_Jakasaniya_Resume.pdf"
               className="group px-8 py-4 rounded-lg border-2 border-primary/50 text-foreground font-semibold hover:bg-primary/10 hover:border-primary transition-all hover:scale-105 flex items-center justify-center gap-2 hover:shadow-lg hover:shadow-primary/30"
             >
